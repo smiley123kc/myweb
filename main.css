@@ -67,6 +67,24 @@ text-align: center;
   
 }
 
+.icon {
+  margin: 20px auto auto 95%;
+
+}
+
+.picture{
+  width:853px;
+  margin:30px auto auto auto;
+  list-style-type: none;
+  
+}
+
+.photo {
+  width: 420px ;
+  height:240px ;
+}
+
+
 a {
   color:#5F51B8;
 }
