@@ -8,7 +8,7 @@ body {
 }
 
 p{
-  color:#0066FF; 
+  color:#2E5CE6; 
 }
 
 h3 {
@@ -17,7 +17,7 @@ h3 {
 
 .container {
   width:853px;
-  margin:0 auto;
+  margin: auto;
 
 }
 
@@ -68,11 +68,12 @@ text-align: center;
 }
 
 .icon {
-  margin: 20px auto auto 95%;
-
+  margin: 25px auto auto 95%;
+  height: 20px ;
+  
 }
 
-.picture{
+.picture {
   width:853px;
   margin:30px auto auto auto;
   list-style-type: none;
