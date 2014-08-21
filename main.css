@@ -2,8 +2,8 @@
 
 body {
   background:url('back1.jpg')no-repeat fixed center; ;
-
   color:#3300FF; 
+  margin-top:px;
   
 }
 
@@ -16,24 +16,24 @@ h3 {
 }
 
 .container {
-  width:650px;
+  width:853px;
   margin:0 auto;
+
 }
 
 .title {
   text-align:center;
   padding-left:60px;
   margin-bottom:120px;
+
+
 }
 
 section {
   margin-bottom: 60px;
+  margin-top:px;
+  padding-top:50px;
 }
-
-.title-img {
-  text-align:justify;
-}
-
 
 
 footer {
@@ -58,27 +58,31 @@ a:hover {
 
 @charset "UTF-8";
 /* Base Styles */
-#cssmenu ul,
-#cssmenu li,
-#cssmenu a {
+.cssmenu ul,
+.cssmenu li,
+.cssmenu a {
   list-style: none;
   margin: 0;
   padding: 0;
   border: 0;
   line-height: 1;
   font-family: 'Lato', sans-serif;
+ 
 }
-#cssmenu {
+.cssmenu {
   border: 0px ;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  width: auto;
+  position: fixed ; 
+  width: 100%;
+  z-index: 10000;
+  
   
 }
-#cssmenu ul {
+.cssmenu ul {
   zoom: 1;
   background: #36b0b6;
   background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
@@ -88,28 +92,32 @@ a:hover {
   background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
   background: linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
-  padding: 5px 10px;
+  padding: 3px 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+
 }
-#cssmenu ul:before {
+.cssmenu ul:before {
   content: '';
   display: block;
+ 
 }
-#cssmenu ul:after {
+.cssmenu ul:after {
   content: '';
   display: table;
   clear: both;
+
 }
-#cssmenu li {
+.cssmenu li {
   float: left;
-  margin: 0 5px 0 0;
+  margin: 0 10px 0 0;
   border: 1px solid transparent;
+  
 }
-#cssmenu li a {
+.cssmenu li a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -121,16 +129,18 @@ a:hover {
   color: #ffffff;
   border: 1px solid transparent;
   font-size: 16px;
+ 
 }
-#cssmenu li.active {
+.cssmenu li.active {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #36b0b6;
+ 
 }
-#cssmenu li.active a {
+.cssmenu li.active a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -142,16 +152,18 @@ a:hover {
   -moz-box-shadow: inset 0 5px 10px #133e40;
   -webkit-box-shadow: inset 0 5px 10px #133e40;
   box-shadow: inset 0 5px 10px #133e40;
+  
 }
-#cssmenu li:hover {
+.cssmenu li:hover {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #36b0b6;
+ 
 }
-#cssmenu li:hover a {
+.cssmenu li:hover a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -163,4 +175,5 @@ a:hover {
   -moz-box-shadow: inset 0 5px 10px #133e40;
   -webkit-box-shadow: inset 0 5px 10px #133e40;
   box-shadow: inset 0 5px 10px #133e40;
+  
 }
